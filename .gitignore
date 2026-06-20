@@ -1,0 +1,43 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+*.xcworkspace/
+*.xcuserdata/
+Pods/
+.symlinks/
+
+# Android
+.gradle/
+local.properties
+*.jks
+*.keystore
+key.properties
+
+# Generated
+*.g.dart
+*.freezed.dart
+.dart_tool/flutter_gen/
+
+# Environment (nunca subir keys reales)
+# Las keys de dev están en environment.dart como referencia
+# En producción usar variables de entorno
+
+# Coverage
+coverage/
+*.lcov
+
+# Pub
+pubspec.lock

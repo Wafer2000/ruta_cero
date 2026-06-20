@@ -1,0 +1,25 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - ".dart_tool/**"
+    - "build/**"
+  errors:
+    invalid_annotation_target: ignore
+    unused_import: warning
+    unused_local_variable: warning
+    dead_code: warning
+    deprecated_member_use: ignore
+    deprecated_member_use_from_same_package: ignore
+
+linter:
+  rules:
+    avoid_print: false
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
+    use_key_in_widget_constructors: false
+    library_private_types_in_public_api: false
+    prefer_final_fields: false
+    unnecessary_string_interpolations: false

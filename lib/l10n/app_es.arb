@@ -1,0 +1,1069 @@
+{
+  "@@locale": "es",
+  "appName": "Ruta Cero",
+  "@appName": {
+    "description": "App name"
+  },
+  "appSlogan": "Tu ruta hacia cero deudas",
+  "@appSlogan": {
+    "description": "App slogan"
+  },
+  "navHome": "Inicio",
+  "@navHome": {
+    "description": "Bottom nav home tab"
+  },
+  "navPlan": "Plan",
+  "@navPlan": {
+    "description": "Bottom nav plan tab"
+  },
+  "navDebts": "Deudas",
+  "@navDebts": {
+    "description": "Bottom nav debts tab"
+  },
+  "navExpenses": "Gastos",
+  "@navExpenses": {
+    "description": "Bottom nav expenses tab"
+  },
+  "navSettings": "Ajustes",
+  "@navSettings": {
+    "description": "Bottom nav settings tab"
+  },
+  "greeting": "Hola{name}",
+  "@greeting": {
+    "description": "Dashboard greeting",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "totalDebt": "Deuda total",
+  "@totalDebt": {
+    "description": "Total debt label"
+  },
+  "debtFree": "Libre de deudas",
+  "@debtFree": {
+    "description": "Debt free badge"
+  },
+  "debtFreeDate": "Sales de deuda",
+  "@debtFreeDate": {
+    "description": "Debt free date label"
+  },
+  "freeMoneyToday": "Dinero libre hoy",
+  "@freeMoneyToday": {
+    "description": "Free money today label"
+  },
+  "calculating": "Calculando...",
+  "@calculating": {
+    "description": "Calculating placeholder"
+  },
+  "monthsRemaining": "{count} meses restantes",
+  "@monthsRemaining": {
+    "description": "Months remaining",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "paymentsThisMonth": "Pagos este mes",
+  "@paymentsThisMonth": {
+    "description": "Payments this month section title"
+  },
+  "noPaymentsScheduled": "No hay pagos programados",
+  "@noPaymentsScheduled": {
+    "description": "Empty payments state"
+  },
+  "remaining": "Queda: {amount}",
+  "@remaining": {
+    "description": "Remaining balance",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "closesThisMonth": "Se liquida este mes",
+  "@closesThisMonth": {
+    "description": "Debt closes this month"
+  },
+  "totalToDebt": "Total a deuda",
+  "@totalToDebt": {
+    "description": "Total paid to debt"
+  },
+  "reserve": "Reserva",
+  "@reserve": {
+    "description": "Reserve label"
+  },
+  "free": "Libre",
+  "@free": {
+    "description": "Free money label"
+  },
+  "quickAddExpense": "Gasto",
+  "@quickAddExpense": {
+    "description": "Quick add expense button"
+  },
+  "quickAddDebt": "Deuda",
+  "@quickAddDebt": {
+    "description": "Quick add debt button"
+  },
+  "quickAddIncome": "Ingreso",
+  "@quickAddIncome": {
+    "description": "Quick add income button"
+  },
+  "configureProfile": "Configura tu perfil para ver tu ruta",
+  "@configureProfile": {
+    "description": "Empty state profile message"
+  },
+  "addDataHint": "Agrega tus ingresos, gastos y deudas para generar tu plan financiero.",
+  "@addDataHint": {
+    "description": "Empty state hint"
+  },
+  "debtsTitle": "Deudas",
+  "@debtsTitle": {
+    "description": "Debts screen title"
+  },
+  "totalActiveDebt": "Total deuda activa",
+  "@totalActiveDebt": {
+    "description": "Total active debt label"
+  },
+  "noDebtsRegistered": "No tienes deudas registradas",
+  "@noDebtsRegistered": {
+    "description": "Empty debts state"
+  },
+  "payment": "Pago: {amount}",
+  "@payment": {
+    "description": "Payment amount",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "creditCard": "Tarjeta de crédito",
+  "@creditCard": {
+    "description": "Credit card debt type"
+  },
+  "freeCredit": "Crédito libre destino",
+  "@freeCredit": {
+    "description": "Free credit debt type"
+  },
+  "personalLoan": "Préstamo personal",
+  "@personalLoan": {
+    "description": "Personal loan debt type"
+  },
+  "installments": "Cuotas",
+  "@installments": {
+    "description": "Installments debt type"
+  },
+  "otherDebt": "Otro",
+  "@otherDebt": {
+    "description": "Other debt type"
+  },
+  "creditLimit": "Cupo",
+  "@creditLimit": {
+    "description": "Credit limit"
+  },
+  "availableCredit": "Disponible",
+  "@availableCredit": {
+    "description": "Available credit"
+  },
+  "utilization": "Uso",
+  "@utilization": {
+    "description": "Credit utilization"
+  },
+  "priorityHigh": "Alta",
+  "@priorityHigh": {
+    "description": "High priority"
+  },
+  "priorityMedium": "Media",
+  "@priorityMedium": {
+    "description": "Medium priority"
+  },
+  "priorityLow": "Baja",
+  "@priorityLow": {
+    "description": "Low priority"
+  },
+  "addDebt": "Agregar deuda",
+  "@addDebt": {
+    "description": "Add debt screen title"
+  },
+  "debtName": "Nombre de la deuda",
+  "@debtName": {
+    "description": "Debt name field"
+  },
+  "debtNameHint": "Ej: Tarjeta Bancolombia",
+  "@debtNameHint": {
+    "description": "Debt name hint"
+  },
+  "debtType": "Tipo",
+  "@debtType": {
+    "description": "Debt type label"
+  },
+  "currentBalance": "Saldo actual",
+  "@currentBalance": {
+    "description": "Current balance field"
+  },
+  "minimumPayment": "Pago mínimo",
+  "@minimumPayment": {
+    "description": "Minimum payment field"
+  },
+  "targetPayment": "Pago objetivo",
+  "@targetPayment": {
+    "description": "Target payment field"
+  },
+  "priority": "Prioridad",
+  "@priority": {
+    "description": "Priority label"
+  },
+  "creditCardData": "Datos de tarjeta",
+  "@creditCardData": {
+    "description": "Credit card data section"
+  },
+  "totalCreditLimit": "Cupo total",
+  "@totalCreditLimit": {
+    "description": "Total credit limit field"
+  },
+  "availableCreditLimit": "Cupo disponible",
+  "@availableCreditLimit": {
+    "description": "Available credit field"
+  },
+  "saveDebt": "Guardar deuda",
+  "@saveDebt": {
+    "description": "Save debt button"
+  },
+  "expensesTitle": "Gastos fijos",
+  "@expensesTitle": {
+    "description": "Expenses screen title"
+  },
+  "totalMonthly": "Total mensual",
+  "@totalMonthly": {
+    "description": "Total monthly expenses"
+  },
+  "addFixedExpenses": "Agrega tus gastos fijos mensuales",
+  "@addFixedExpenses": {
+    "description": "Empty expenses state"
+  },
+  "paused": "Pausado",
+  "@paused": {
+    "description": "Paused expense badge"
+  },
+  "addExpense": "Agregar gasto",
+  "@addExpense": {
+    "description": "Add expense screen title"
+  },
+  "expenseName": "Nombre",
+  "@expenseName": {
+    "description": "Expense name field"
+  },
+  "expenseNameHint": "Ej: Arriendo, Internet, Gym",
+  "@expenseNameHint": {
+    "description": "Expense name hint"
+  },
+  "monthlyValue": "Valor mensual",
+  "@monthlyValue": {
+    "description": "Monthly value field"
+  },
+  "category": "Categoría",
+  "@category": {
+    "description": "Category label"
+  },
+  "saveExpense": "Guardar gasto",
+  "@saveExpense": {
+    "description": "Save expense button"
+  },
+  "catHousing": "Vivienda",
+  "@catHousing": {
+    "description": "Housing category"
+  },
+  "catFood": "Comida",
+  "@catFood": {
+    "description": "Food category"
+  },
+  "catTransport": "Transporte",
+  "@catTransport": {
+    "description": "Transport category"
+  },
+  "catUtilities": "Servicios",
+  "@catUtilities": {
+    "description": "Utilities category"
+  },
+  "catSubscriptions": "Suscripciones",
+  "@catSubscriptions": {
+    "description": "Subscriptions category"
+  },
+  "catHealth": "Salud",
+  "@catHealth": {
+    "description": "Health category"
+  },
+  "catPersonal": "Personal",
+  "@catPersonal": {
+    "description": "Personal category"
+  },
+  "catEducation": "Educación",
+  "@catEducation": {
+    "description": "Education category"
+  },
+  "catEntertainment": "Entretenimiento",
+  "@catEntertainment": {
+    "description": "Entertainment category"
+  },
+  "catOther": "Otros",
+  "@catOther": {
+    "description": "Other category"
+  },
+  "incomesTitle": "Ingresos",
+  "@incomesTitle": {
+    "description": "Incomes screen title"
+  },
+  "noIncomesRegistered": "No hay ingresos registrados",
+  "@noIncomesRegistered": {
+    "description": "Empty incomes state"
+  },
+  "recurring": "Recurrente",
+  "@recurring": {
+    "description": "Recurring income badge"
+  },
+  "addIncome": "Agregar ingreso",
+  "@addIncome": {
+    "description": "Add income screen title"
+  },
+  "incomeName": "Nombre",
+  "@incomeName": {
+    "description": "Income name field"
+  },
+  "incomeNameHint": "Ej: Prima, Freelance",
+  "@incomeNameHint": {
+    "description": "Income name hint"
+  },
+  "value": "Valor",
+  "@value": {
+    "description": "Value field label"
+  },
+  "incomeType": "Tipo",
+  "@incomeType": {
+    "description": "Income type label"
+  },
+  "typeSalary": "Sueldo",
+  "@typeSalary": {
+    "description": "Salary type"
+  },
+  "typeBonus": "Prima",
+  "@typeBonus": {
+    "description": "Bonus type"
+  },
+  "typeExtra": "Extra",
+  "@typeExtra": {
+    "description": "Extra income type"
+  },
+  "recurringMonthly": "Recurrente cada mes",
+  "@recurringMonthly": {
+    "description": "Recurring monthly toggle"
+  },
+  "saveIncome": "Guardar ingreso",
+  "@saveIncome": {
+    "description": "Save income button"
+  },
+  "planTitle": "Plan mes a mes",
+  "@planTitle": {
+    "description": "Plan screen title"
+  },
+  "addDataForPlan": "Agrega ingresos y deudas para generar tu plan",
+  "@addDataForPlan": {
+    "description": "Empty plan state"
+  },
+  "income": "Ingresos",
+  "@income": {
+    "description": "Income label in plan"
+  },
+  "expenses": "Gastos",
+  "@expenses": {
+    "description": "Expenses label in plan"
+  },
+  "toDebt": "A deuda",
+  "@toDebt": {
+    "description": "To debt label in plan"
+  },
+  "events": "Eventos",
+  "@events": {
+    "description": "Events label in plan"
+  },
+  "debtRemaining": "Deuda restante: {amount}",
+  "@debtRemaining": {
+    "description": "Debt remaining in month",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Configuración",
+  "@settingsTitle": {
+    "description": "Settings screen title"
+  },
+  "yourName": "Tu nombre",
+  "@yourName": {
+    "description": "Name field label"
+  },
+  "nameHint": "Ej: Andrés",
+  "@nameHint": {
+    "description": "Name field hint"
+  },
+  "monthlyIncome": "Ingreso mensual (COP)",
+  "@monthlyIncome": {
+    "description": "Monthly income field"
+  },
+  "monthlyReserve": "Reserva mensual (COP)",
+  "@monthlyReserve": {
+    "description": "Monthly reserve field"
+  },
+  "salaryDay": "Día de pago del salario",
+  "@salaryDay": {
+    "description": "Salary day field"
+  },
+  "salaryDayHint": "Ej: 30",
+  "@salaryDayHint": {
+    "description": "Salary day hint"
+  },
+  "saveProfile": "Guardar perfil",
+  "@saveProfile": {
+    "description": "Save profile button"
+  },
+  "profileSaved": "Perfil guardado",
+  "@profileSaved": {
+    "description": "Profile saved snackbar"
+  },
+  "language": "Idioma",
+  "@language": {
+    "description": "Language label"
+  },
+  "appInfo": "Ruta Cero v1.0.0",
+  "@appInfo": {
+    "description": "App info"
+  },
+  "appCurrency": "Moneda: COP • Zona: America/Bogota",
+  "@appCurrency": {
+    "description": "App currency info"
+  },
+  "localData": "Datos almacenados localmente",
+  "@localData": {
+    "description": "Local data info"
+  },
+  "statusHealthy": "Saludable",
+  "@statusHealthy": {
+    "description": "Healthy month status"
+  },
+  "statusTight": "Ajustado",
+  "@statusTight": {
+    "description": "Tight month status"
+  },
+  "statusRisk": "Riesgo",
+  "@statusRisk": {
+    "description": "Risk month status"
+  },
+  "statusExtraIncome": "Ingreso extra",
+  "@statusExtraIncome": {
+    "description": "Extra income month status"
+  },
+  "statusEvent": "Evento",
+  "@statusEvent": {
+    "description": "Event month status"
+  },
+  "nameAndValueRequired": "Nombre y valor son requeridos",
+  "@nameAndValueRequired": {
+    "description": "Validation error"
+  },
+  "nameAndBalanceRequired": "Nombre y saldo son requeridos",
+  "@nameAndBalanceRequired": {
+    "description": "Validation error"
+  },
+  "langSpanish": "Español",
+  "@langSpanish": {
+    "description": "Spanish language name"
+  },
+  "langEnglish": "English",
+  "@langEnglish": {
+    "description": "English language name"
+  },
+  "langPortuguese": "Português",
+  "@langPortuguese": {
+    "description": "Portuguese language name"
+  },
+  "authLoginTitle": "Inicia sesión para continuar",
+  "@authLoginTitle": {
+    "description": "Login subtitle"
+  },
+  "authRegisterTitle": "Crea tu cuenta",
+  "@authRegisterTitle": {
+    "description": "Register subtitle"
+  },
+  "authEmail": "Correo electrónico",
+  "@authEmail": {
+    "description": "Email field label"
+  },
+  "authPassword": "Contraseña",
+  "@authPassword": {
+    "description": "Password field label"
+  },
+  "authLogin": "Iniciar sesión",
+  "@authLogin": {
+    "description": "Login button"
+  },
+  "authRegister": "Crear cuenta",
+  "@authRegister": {
+    "description": "Register button"
+  },
+  "authSwitchToRegister": "¿No tienes cuenta? Regístrate",
+  "@authSwitchToRegister": {
+    "description": "Switch to register"
+  },
+  "authSwitchToLogin": "¿Ya tienes cuenta? Inicia sesión",
+  "@authSwitchToLogin": {
+    "description": "Switch to login"
+  },
+  "authContinueOffline": "Continuar sin cuenta",
+  "@authContinueOffline": {
+    "description": "Continue without account"
+  },
+  "authFieldsRequired": "Completa todos los campos",
+  "@authFieldsRequired": {
+    "description": "Fields required error"
+  },
+  "authPasswordTooShort": "La contraseña debe tener al menos 6 caracteres",
+  "@authPasswordTooShort": {
+    "description": "Password too short error"
+  },
+  "errorGeneric": "Error: {message}",
+  "@errorGeneric": {
+    "description": "Generic error with message",
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "monthJan": "Enero",
+  "@monthJan": {
+    "description": "January"
+  },
+  "monthFeb": "Febrero",
+  "@monthFeb": {
+    "description": "February"
+  },
+  "monthMar": "Marzo",
+  "@monthMar": {
+    "description": "March"
+  },
+  "monthApr": "Abril",
+  "@monthApr": {
+    "description": "April"
+  },
+  "monthMay": "Mayo",
+  "@monthMay": {
+    "description": "May"
+  },
+  "monthJun": "Junio",
+  "@monthJun": {
+    "description": "June"
+  },
+  "monthJul": "Julio",
+  "@monthJul": {
+    "description": "July"
+  },
+  "monthAug": "Agosto",
+  "@monthAug": {
+    "description": "August"
+  },
+  "monthSep": "Septiembre",
+  "@monthSep": {
+    "description": "September"
+  },
+  "monthOct": "Octubre",
+  "@monthOct": {
+    "description": "October"
+  },
+  "monthNov": "Noviembre",
+  "@monthNov": {
+    "description": "November"
+  },
+  "monthDec": "Diciembre",
+  "@monthDec": {
+    "description": "December"
+  },
+  "monthShortJan": "Ene",
+  "@monthShortJan": {
+    "description": "Jan short"
+  },
+  "monthShortFeb": "Feb",
+  "@monthShortFeb": {
+    "description": "Feb short"
+  },
+  "monthShortMar": "Mar",
+  "@monthShortMar": {
+    "description": "Mar short"
+  },
+  "monthShortApr": "Abr",
+  "@monthShortApr": {
+    "description": "Apr short"
+  },
+  "monthShortMay": "May",
+  "@monthShortMay": {
+    "description": "May short"
+  },
+  "monthShortJun": "Jun",
+  "@monthShortJun": {
+    "description": "Jun short"
+  },
+  "monthShortJul": "Jul",
+  "@monthShortJul": {
+    "description": "Jul short"
+  },
+  "monthShortAug": "Ago",
+  "@monthShortAug": {
+    "description": "Aug short"
+  },
+  "monthShortSep": "Sep",
+  "@monthShortSep": {
+    "description": "Sep short"
+  },
+  "monthShortOct": "Oct",
+  "@monthShortOct": {
+    "description": "Oct short"
+  },
+  "monthShortNov": "Nov",
+  "@monthShortNov": {
+    "description": "Nov short"
+  },
+  "monthShortDec": "Dic",
+  "@monthShortDec": {
+    "description": "Dec short"
+  },
+  "authErrorConnection": "No se pudo conectar al servidor. Verifica tu conexión a internet.",
+  "@authErrorConnection": {
+    "description": "Auth error message"
+  },
+  "authErrorInvalidCredentials": "Correo o contraseña incorrectos.",
+  "@authErrorInvalidCredentials": {
+    "description": "Auth error message"
+  },
+  "authErrorEmailNotConfirmed": "Tu correo aún no ha sido confirmado. Revisa tu bandeja.",
+  "@authErrorEmailNotConfirmed": {
+    "description": "Auth error message"
+  },
+  "authErrorAlreadyRegistered": "Este correo ya tiene una cuenta. Intenta iniciar sesión.",
+  "@authErrorAlreadyRegistered": {
+    "description": "Auth error message"
+  },
+  "authErrorGeneric": "Ocurrió un error inesperado. Intenta de nuevo.",
+  "@authErrorGeneric": {
+    "description": "Auth error message"
+  },
+  "paymentsTitle": "Pagos reales",
+  "@paymentsTitle": {
+    "description": "Fase 2: paymentsTitle"
+  },
+  "calendarTitle": "Calendario",
+  "@calendarTitle": {
+    "description": "Fase 2: calendarTitle"
+  },
+  "historyTitle": "Historial de cambios",
+  "@historyTitle": {
+    "description": "Fase 2: historyTitle"
+  },
+  "markAsPaid": "Marcar como pagado",
+  "@markAsPaid": {
+    "description": "Fase 2: markAsPaid"
+  },
+  "planned": "Planeado",
+  "@planned": {
+    "description": "Fase 2: planned"
+  },
+  "paid": "Pagado",
+  "@paid": {
+    "description": "Fase 2: paid"
+  },
+  "overdue": "Vencido",
+  "@overdue": {
+    "description": "Fase 2: overdue"
+  },
+  "upcoming": "Próximo",
+  "@upcoming": {
+    "description": "Fase 2: upcoming"
+  },
+  "noPaymentsYet": "No hay pagos registrados aún",
+  "@noPaymentsYet": {
+    "description": "Fase 2: noPaymentsYet"
+  },
+  "noHistoryYet": "No hay cambios registrados aún",
+  "@noHistoryYet": {
+    "description": "Fase 2: noHistoryYet"
+  },
+  "created": "Creado",
+  "@created": {
+    "description": "Fase 2: created"
+  },
+  "updated": "Actualizado",
+  "@updated": {
+    "description": "Fase 2: updated"
+  },
+  "deleted": "Eliminado",
+  "@deleted": {
+    "description": "Fase 2: deleted"
+  },
+  "scenariosTitle": "Escenarios",
+  "@scenariosTitle": {
+    "description": "Scenarios screen title"
+  },
+  "createScenario": "Crear escenario",
+  "@createScenario": {
+    "description": "Create scenario button/title"
+  },
+  "compareScenarios": "Compara diferentes estrategias",
+  "@compareScenarios": {
+    "description": "Compare scenarios subtitle"
+  },
+  "scenarioName": "Nombre del escenario",
+  "@scenarioName": {
+    "description": "Scenario name field"
+  },
+  "scenarioNameHint": "Ej: Pago agresivo, Sin Netflix",
+  "@scenarioNameHint": {
+    "description": "Scenario name hint"
+  },
+  "currentPlan": "Plan actual",
+  "@currentPlan": {
+    "description": "Current plan label"
+  },
+  "debtFreeIn": "Libre de deuda en",
+  "@debtFreeIn": {
+    "description": "Debt free date in scenario card"
+  },
+  "monthsEarlier": "meses antes",
+  "@monthsEarlier": {
+    "description": "Months earlier comparison"
+  },
+  "monthsLater": "meses después",
+  "@monthsLater": {
+    "description": "Months later comparison"
+  },
+  "sameDate": "Misma fecha",
+  "@sameDate": {
+    "description": "Same date comparison"
+  },
+  "avgFreeMoney": "Dinero libre promedio",
+  "@avgFreeMoney": {
+    "description": "Average free money label"
+  },
+  "redMonths": "Meses en riesgo",
+  "@redMonths": {
+    "description": "Red months label"
+  },
+  "affordabilityTitle": "¿Me alcanza?",
+  "@affordabilityTitle": {
+    "description": "Affordability screen title"
+  },
+  "purchaseAmount": "Monto de la compra",
+  "@purchaseAmount": {
+    "description": "Purchase amount field"
+  },
+  "purchaseMonth": "Mes de la compra",
+  "@purchaseMonth": {
+    "description": "Purchase month field"
+  },
+  "checkAffordability": "Verificar",
+  "@checkAffordability": {
+    "description": "Check affordability button"
+  },
+  "canAfford": "¡Sí te alcanza!",
+  "@canAfford": {
+    "description": "Can afford result"
+  },
+  "canAffordWithReserve": "Te alcanza, pero con reserva",
+  "@canAffordWithReserve": {
+    "description": "Can afford with reserve result"
+  },
+  "cannotAfford": "No te alcanza",
+  "@cannotAfford": {
+    "description": "Cannot afford result"
+  },
+  "delaysDebtBy": "Retrasa tu libertad de deuda",
+  "@delaysDebtBy": {
+    "description": "Delays debt free label"
+  },
+  "usesReserve": "Usa tu reserva de emergencia",
+  "@usesReserve": {
+    "description": "Uses reserve warning"
+  },
+  "freeMoneyAfterPurchase": "Dinero libre después",
+  "@freeMoneyAfterPurchase": {
+    "description": "Free money after purchase"
+  },
+  "noScenariosYet": "Aún no tienes escenarios",
+  "@noScenariosYet": {
+    "description": "Empty scenarios state"
+  },
+  "selectStrategy": "Estrategia de pago",
+  "@selectStrategy": {
+    "description": "Strategy picker label"
+  },
+  "strategySnowball": "Bola de nieve",
+  "@strategySnowball": {
+    "description": "Snowball strategy"
+  },
+  "strategyAvalanche": "Avalancha",
+  "@strategyAvalanche": {
+    "description": "Avalanche strategy"
+  },
+  "strategyCustom": "Personalizada",
+  "@strategyCustom": {
+    "description": "Custom strategy"
+  },
+  "strategyBalanced": "Balanceada",
+  "@strategyBalanced": {
+    "description": "Balanced strategy"
+  },
+  "strategyConservative": "Conservadora",
+  "@strategyConservative": {
+    "description": "Conservative strategy"
+  },
+  "goalsTitle": "Metas",
+  "@goalsTitle": {
+    "description": "Goals screen title"
+  },
+  "addGoal": "Agregar meta",
+  "@addGoal": {
+    "description": "Add goal button"
+  },
+  "noGoalsYet": "Aún no tienes metas",
+  "@noGoalsYet": {
+    "description": "Empty goals state"
+  },
+  "goalName": "Nombre de la meta",
+  "@goalName": {
+    "description": "Goal name field"
+  },
+  "goalNameHint": "Ej: Laptop, Viaje a Europa",
+  "@goalNameHint": {
+    "description": "Goal name hint"
+  },
+  "goalCategory": "Categoría",
+  "@goalCategory": {
+    "description": "Goal category label"
+  },
+  "targetAmount": "Monto objetivo",
+  "@targetAmount": {
+    "description": "Target amount field"
+  },
+  "monthlyContribution": "Aporte mensual",
+  "@monthlyContribution": {
+    "description": "Monthly contribution field"
+  },
+  "deadline": "Fecha límite",
+  "@deadline": {
+    "description": "Deadline field"
+  },
+  "saveGoal": "Guardar meta",
+  "@saveGoal": {
+    "description": "Save goal button"
+  },
+  "estimatedMonths": "meses estimados",
+  "@estimatedMonths": {
+    "description": "Estimated months label"
+  },
+  "progress": "Progreso",
+  "@progress": {
+    "description": "Progress label"
+  },
+  "catTravel": "Viaje",
+  "@catTravel": {
+    "description": "Travel goal category"
+  },
+  "catTechnology": "Tecnología",
+  "@catTechnology": {
+    "description": "Technology goal category"
+  },
+  "catBusiness": "Negocio",
+  "@catBusiness": {
+    "description": "Business goal category"
+  },
+  "catEmergency": "Emergencia",
+  "@catEmergency": {
+    "description": "Emergency goal category"
+  },
+  "catGift": "Regalo",
+  "@catGift": {
+    "description": "Gift goal category"
+  },
+  "catSavings": "Ahorro",
+  "@catSavings": {
+    "description": "Savings goal category"
+  },
+  "disciplineTitle": "Modo disciplina",
+  "@disciplineTitle": {
+    "description": "Discipline screen title"
+  },
+  "dailyBudget": "Presupuesto diario",
+  "@dailyBudget": {
+    "description": "Daily budget label"
+  },
+  "dailyBudgetDescription": "Lo que puedes gastar hoy sin afectar tu plan",
+  "@dailyBudgetDescription": {
+    "description": "Daily budget description"
+  },
+  "daysRemaining": "Días restantes en el mes",
+  "@daysRemaining": {
+    "description": "Days remaining in month"
+  },
+  "reserveAvailable": "Reserva disponible",
+  "@reserveAvailable": {
+    "description": "Reserve available label"
+  },
+  "creditCardWarning": "Uso de tarjeta alto (>70%). Reduce antes de comprar.",
+  "@creditCardWarning": {
+    "description": "Credit card high usage warning"
+  },
+  "creditCardSafe": "Uso de tarjeta en rango saludable",
+  "@creditCardSafe": {
+    "description": "Credit card safe status"
+  },
+  "keepItUp": "¡Sigue así! Cada día cuenta.",
+  "@keepItUp": {
+    "description": "Motivational message"
+  },
+  "emergencyFundTitle": "Fondo de emergencia",
+  "@emergencyFundTitle": {
+    "description": "Emergency fund title"
+  },
+  "emergencyMinimum": "Mínimo (1 mes)",
+  "@emergencyMinimum": {
+    "description": "Emergency fund minimum"
+  },
+  "emergencyRecommended": "Recomendado (3 meses)",
+  "@emergencyRecommended": {
+    "description": "Emergency fund recommended"
+  },
+  "emergencyIdeal": "Ideal (6 meses)",
+  "@emergencyIdeal": {
+    "description": "Emergency fund ideal"
+  },
+  "exportTitle": "Exportar datos",
+  "@exportTitle": {
+    "description": "Fase 5: exportTitle"
+  },
+  "exportPdf": "Exportar a PDF",
+  "@exportPdf": {
+    "description": "Fase 5: exportPdf"
+  },
+  "exportPdfDescription": "Genera un reporte completo de tu plan financiero",
+  "@exportPdfDescription": {
+    "description": "Fase 5: exportPdfDescription"
+  },
+  "exportCsv": "Exportar plan a CSV",
+  "@exportCsv": {
+    "description": "Fase 5: exportCsv"
+  },
+  "exportCsvDescription": "Plan mes a mes compatible con Excel",
+  "@exportCsvDescription": {
+    "description": "Fase 5: exportCsvDescription"
+  },
+  "exportDebts": "Exportar deudas a CSV",
+  "@exportDebts": {
+    "description": "Fase 5: exportDebts"
+  },
+  "exportDebtsDescription": "Lista de deudas con saldos y pagos",
+  "@exportDebtsDescription": {
+    "description": "Fase 5: exportDebtsDescription"
+  },
+  "exportExpenses": "Exportar gastos a CSV",
+  "@exportExpenses": {
+    "description": "Fase 5: exportExpenses"
+  },
+  "exportExpensesDescription": "Lista de gastos fijos con categorias",
+  "@exportExpensesDescription": {
+    "description": "Fase 5: exportExpensesDescription"
+  },
+  "onboardingWelcome": "Bienvenido a Ruta Cero",
+  "@onboardingWelcome": {
+    "description": "Fase 5: onboardingWelcome"
+  },
+  "onboardingWelcomeSubtitle": "Tu ruta hacia cero deudas empieza aqui",
+  "@onboardingWelcomeSubtitle": {
+    "description": "Fase 5: onboardingWelcomeSubtitle"
+  },
+  "onboardingIncome": "¿Cuanto ganas al mes?",
+  "@onboardingIncome": {
+    "description": "Fase 5: onboardingIncome"
+  },
+  "onboardingIncomeSubtitle": "Tu salario neto mensual en pesos colombianos",
+  "@onboardingIncomeSubtitle": {
+    "description": "Fase 5: onboardingIncomeSubtitle"
+  },
+  "onboardingReserve": "¿Cuanto quieres reservar?",
+  "@onboardingReserve": {
+    "description": "Fase 5: onboardingReserve"
+  },
+  "onboardingReserveSubtitle": "Dinero que NO se usa para pagar deudas cada mes",
+  "@onboardingReserveSubtitle": {
+    "description": "Fase 5: onboardingReserveSubtitle"
+  },
+  "onboardingNext": "Siguiente",
+  "@onboardingNext": {
+    "description": "Fase 5: onboardingNext"
+  },
+  "onboardingFinish": "Comenzar",
+  "@onboardingFinish": {
+    "description": "Fase 5: onboardingFinish"
+  },
+  "eventsTitle": "Eventos especiales",
+  "@eventsTitle": {
+    "description": "Events screen title"
+  },
+  "addEvent": "Agregar evento",
+  "@addEvent": {
+    "description": "Add event screen title"
+  },
+  "noEventsYet": "No hay eventos registrados",
+  "@noEventsYet": {
+    "description": "Empty events state"
+  },
+  "eventName": "Nombre del evento",
+  "@eventName": {
+    "description": "Event name field"
+  },
+  "eventNameHint": "Ej: Cumpleaños, Viaje",
+  "@eventNameHint": {
+    "description": "Event name hint"
+  },
+  "eventMonth": "Mes del evento",
+  "@eventMonth": {
+    "description": "Event month field"
+  },
+  "eventCategory": "Categoría",
+  "@eventCategory": {
+    "description": "Event category label"
+  },
+  "flexible": "Flexible (puede moverse)",
+  "@flexible": {
+    "description": "Flexible toggle label"
+  },
+  "saveEvent": "Guardar evento",
+  "@saveEvent": {
+    "description": "Save event button"
+  },
+  "catBirthday": "Cumpleaños",
+  "@catBirthday": {
+    "description": "Birthday event category"
+  },
+  "catRepair": "Reparación",
+  "@catRepair": {
+    "description": "Repair event category"
+  },
+  "catMedical": "Médico",
+  "@catMedical": {
+    "description": "Medical event category"
+  },
+  "catPurchase": "Compra",
+  "@catPurchase": {
+    "description": "Purchase event category"
+  }
+}

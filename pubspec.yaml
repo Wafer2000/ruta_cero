@@ -1,0 +1,78 @@
+name: ruta_cero
+description: "App de seguimiento financiero personal, simulación de pagos y decisiones inteligentes"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Local Database
+  drift: ^2.22.1
+  sqlite3_flutter_libs: ^0.5.28
+  path_provider: ^2.1.5
+  path: ^1.9.0
+
+  # Models
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # Formatting & Internationalization
+  intl: ^0.19.0
+
+  # UI Components
+  fl_chart: ^0.69.2
+  google_fonts: ^6.2.1
+
+  # Utilities
+  uuid: ^4.5.1
+  equatable: ^2.0.7
+  supabase_flutter: ^2.15.0
+  pdf: ^3.11.3
+  printing: ^5.14.3
+  share_plus: ^12.0.2
+  csv: ^6.0.0
+  flutter_local_notifications: ^19.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  # Code Generation
+  build_runner: ^2.4.13
+  drift_dev: ^2.22.1
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.6.2
+
+  # App Icon
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#070A13"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+

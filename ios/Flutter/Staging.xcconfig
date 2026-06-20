@@ -1,0 +1,4 @@
+#include "Generated.xcconfig"
+FLUTTER_TARGET=lib/main_staging.dart
+PRODUCT_BUNDLE_IDENTIFIER=com.rutacero.rutaCero.stg
+PRODUCT_NAME=Ruta Cero STG
