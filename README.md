@@ -82,10 +82,10 @@ lib/
 
 ```bash
 # Desarrollo (Android)
-flutter run --flavor dev -t lib/main_dev.dart
+flutter run --flavor dev -t lib/main_dev.dart --dart-define-from-file=.env.dev
 
 # Producción
-flutter run --flavor prod -t lib/main.dart
+flutter run --flavor prod -t lib/main.dart --dart-define-from-file=.env.prod
 ```
 
 ## Ambientes
@@ -99,10 +99,11 @@ flutter run --flavor prod -t lib/main.dart
 ## Configuración inicial
 
 1. Clonar el repo
-2. `flutter pub get`
-3. `dart run build_runner build --delete-conflicting-outputs`
-4. `flutter gen-l10n`
-5. Configurar Supabase → ver [docs/SUPABASE_SETUP.md](docs/SUPABASE_SETUP.md)
+2. Copiar `.env.example` a `.env.dev` y establecer los valores de desarrollo local (nunca subirlos a Git). Para producción usar `.env.prod` con la configuración correspondiente.
+3. `flutter pub get`
+4. `dart run build_runner build --delete-conflicting-outputs`
+5. `flutter gen-l10n`
+6. Configurar Supabase → ver [docs/SUPABASE_SETUP.md](docs/SUPABASE_SETUP.md)
 
 ## Documentación
 
@@ -110,6 +111,13 @@ flutter run --flavor prod -t lib/main.dart
 - [Configuración de Supabase](docs/SUPABASE_SETUP.md)
 - [Manual de usuario](docs/USER_MANUAL.md)
 - [Roadmap futuro](docs/ROADMAP.md)
+
+## Seguridad y publicación
+
+- No subir `.env.dev`, `.env.prod` ni credenciales de acceso.
+- La clave **anon/publishable** de Supabase está diseñada para clientes, pero la seguridad de los datos depende de reglas RLS y permisos apropiados.
+- Antes de cambiar la visibilidad del repositorio, revisar historial Git, datos de prueba, licencias, configuraciones y autorizaciones de terceros.
+- Este cambio de configuración se preparó en una rama de revisión; no se considera prueba de una publicación segura.
 
 ## Licencia
 

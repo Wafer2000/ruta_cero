@@ -41,3 +41,8 @@ coverage/
 
 # Pub
 pubspec.lock
+
+# Local Supabase and other environment values
+.env
+.env.*
+!.env.example
