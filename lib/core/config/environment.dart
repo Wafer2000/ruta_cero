@@ -30,8 +30,8 @@ class EnvConfig {
   static const dev = EnvConfig(
     environment: Environment.dev,
     appName: '${AppConstants.appName} DEV',
-    supabaseUrl: 'https://srqlqnehioekfxcifkss.supabase.co',
-    supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNycWxxbmVoaW9la2Z4Y2lma3NzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE5MjEzNzMsImV4cCI6MjA5NzQ5NzM3M30.GCR9HkFGEg89mFNscdh4J3uKgV0QwFhXaeeCpjSJDuo',
+    supabaseUrl: const String.fromEnvironment('SUPABASE_URL'),
+    supabaseAnonKey: const String.fromEnvironment('SUPABASE_ANON_KEY'),
     enableLogging: true,
     enableCrashlytics: false,
     showDebugBanner: true,
